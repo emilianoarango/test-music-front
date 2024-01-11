@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("primeng/theme.css");
+@import "primeicons/primeicons.css";
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500;600;700&display=swap");
+
+body {
+  background: #f1f1f1;
+  font-family: "Roboto Mono";
+}

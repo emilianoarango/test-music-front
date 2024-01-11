@@ -1,0 +1,64 @@
+h1,
+h2 {
+  font-weight: normal;
+}
+
+.container {
+  background: #fff;
+  border: solid 1px #d9d9d9;
+  border-radius: 10px;
+  box-shadow: 1px 1px 15px rgba($color: #000000, $alpha: 0.1);
+  margin: 20px auto 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+  overflow: visible;
+}
+
+h1 {
+  background: #b8dfff;
+  border-radius: 5px 5px 0 0;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 0 10px 0;
+  width: 100%;
+}
+
+h2 {
+  border: solid 1px #d9d9d9;
+  border-radius: 5px;
+  background: #f1f1f1;
+  font-size: 16px;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 10px 0;
+  border-bottom: solid 1px #d9d9d9;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+.button-clear {
+  margin-left: 20px;
+}
+
+::ng-deep .p-button {
+  font-size: 13px;
+}
+
+::ng-deep .p-datatable .p-datatable-tbody > tr:hover {
+  background: #f1f1f1;
+}
+
+::ng-deep .pi {
+  font-size: 11px;
+}
